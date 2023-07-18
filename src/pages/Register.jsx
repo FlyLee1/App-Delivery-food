@@ -6,6 +6,7 @@ import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/common-section/CommonSection";
 
 const Register = () => {
+  
   const signupNameRef = useRef();
   const signupEmailRef = useRef()
   const signupPasswordRef = useRef();
