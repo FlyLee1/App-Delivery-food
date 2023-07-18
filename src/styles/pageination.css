@@ -1,0 +1,27 @@
+
+.pageinationBttns {
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.7rem;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.pageinationBttns a {
+    padding: 5px 10px;
+    background: #df2020;
+    color: #fff !important;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.pageinationBttns a:hover {
+    background: #212245;
+}
